@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WeexExample.iml" filepath="$PROJECT_DIR$/WeexExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeexOne.iml" filepath="$PROJECT_DIR$/WeexOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/wxhelloworld/wxhelloworld.iml" filepath="$PROJECT_DIR$/wxhelloworld/wxhelloworld.iml" />
     </modules>
