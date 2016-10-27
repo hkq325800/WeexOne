@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	;__weex_define__("@weex-component/8311f8a6325b522c65d97fc04bba0182", [], function(__weex_require__, exports, __weex_module__){
+	;__weex_define__("@weex-component/610a5e902bfc9fd59ffedb09ec9d0bb8", [], function(__weex_require__, exports, __weex_module__){
 
 	;
 	  __weex_module__.exports = {
@@ -124,11 +124,11 @@
 	        "subtitle"
 	      ],
 	      "repeat": {
-	        "expression": function () {return this.list},
+	        "expression": function () {return this.list2},
 	        "value": "item"
 	      },
 	      "attr": {
-	        "value": function () {return (this.$index) + '-' + (this.item) + '-' + (this.normal)}
+	        "value": function () {return (this.$index) + '-' + (this.item.text) + '-' + (this.normal)}
 	      }
 	    },
 	    {
@@ -146,11 +146,11 @@
 	        "subtitle"
 	      ],
 	      "repeat": {
-	        "expression": function () {return this.list},
+	        "expression": function () {return this.list2},
 	        "value": "item"
 	      },
 	      "attr": {
-	        "value": function () {return (this.$index) + '-' + (this.item) + '-' + (this.normal)}
+	        "value": function () {return (this.$index) + '-' + (this.item.text) + '-' + (this.normal)}
 	      }
 	    },
 	    {
@@ -168,12 +168,12 @@
 	        "subtitle"
 	      ],
 	      "repeat": {
-	        "expression": function () {return this.list},
+	        "expression": function () {return this.list2},
 	        "key": "i",
 	        "value": "v"
 	      },
 	      "attr": {
-	        "value": function () {return (this.i) + '-' + (this.v) + '-' + (this.normal)}
+	        "value": function () {return (this.i) + '-' + (this.v.text) + '-' + (this.normal)}
 	      }
 	    },
 	    {
@@ -191,12 +191,12 @@
 	        "subtitle"
 	      ],
 	      "repeat": {
-	        "expression": function () {return this.list},
+	        "expression": function () {return this.list2},
 	        "key": "i",
 	        "value": "v"
 	      },
 	      "attr": {
-	        "value": function () {return (this.i) + '-' + (this.v) + '-' + (this.normal)}
+	        "value": function () {return (this.i) + '-' + (this.v.text) + '-' + (this.normal)}
 	      }
 	    },
 	    {
@@ -233,7 +233,7 @@
 	  }
 	})
 	})
-	;__weex_bootstrap__("@weex-component/8311f8a6325b522c65d97fc04bba0182", {
+	;__weex_bootstrap__("@weex-component/610a5e902bfc9fd59ffedb09ec9d0bb8", {
 	  "transformerVersion": "0.3.1"
 	},undefined)
 
